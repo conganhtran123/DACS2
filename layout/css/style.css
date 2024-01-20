@@ -1,0 +1,547 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerfull,
+.row {
+    float: left;
+    width: 100%;
+}
+
+.containerfull img,
+.boxleft img,
+.boxright img,
+.boxnews {
+    width: 100%;
+}
+
+.container2 {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 .box3 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.padd20 {
+    padding: 15px 0px;
+}
+
+.padd50 {
+    padding: 50px 0px;
+}
+
+.box50 {
+    float: left;
+    width: calc(50% - 30px);
+}
+
+.box25 {
+    float: left;
+    width: 25%;
+    width: calc(25% - 30px);
+    position: relative;
+}
+
+.best {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/best-seller.png");
+    background-size: 100%;
+}
+.hethang {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/hethang.png");
+    background-size: 100%;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    
+}
+
+.box50 img,
+.box25 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999999;
+}
+
+section,
+.mr30 {
+    margin: 30px 0px;
+}
+
+.mr15 {
+    margin-right: 30px;
+}
+
+.mr5pt {
+    margin-right: 5%;
+}
+
+.mr2pt {
+    margin-right: 2%;
+}
+
+.boxnews {
+    float: left;
+    width: calc(33.33% - 2%);
+}
+
+.boxnews img {
+    border-radius: 10px;
+}
+
+.bg1 {
+    background-color: #fef8e6;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #993300;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+  }
+  .social-media a:hover {
+    display: block;
+    text-decoration: none;
+    color: #4b3cd3;
+  }
+
+
+.boxleft {
+    float: left;
+    width: 45%;
+}
+
+.boxright {
+    float: left;
+    width: 48%;
+}
+
+.boxleft_bgw {
+    float: left;
+    width: 35%;
+}
+
+.boxright_bgw {
+    float: left;
+    width: 60%;
+}
+
+.boxleft_bgw_left {
+    float: right;
+    width: 80%;
+    margin-top: 25%;
+}
+
+p {
+    text-align: justify;
+    line-height: 150%;
+    color: #666666;
+}
+
+button {
+    color: #993300;
+    font-size: 13pt;
+    font-weight: bold;
+    width: 100%;
+    border: 1px #993300 dotted;
+    border-radius: 5px;
+    padding: 10px 0px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 18pt;
+    padding-left: 10px;
+    color: #444444;
+    border-left: 4px #FF9900 solid;
+}
+
+.price {
+    text-align: center;
+    color: #993300;
+    font-size: 12pt;
+    float: left;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+a {
+    color: #993300;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.boxleft {
+    float: left;
+    width: 20%;
+}
+
+.boxright {
+    float: left;
+    width: 78%;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.menutrai a {
+    display: block;
+    width: 100%;
+    color: #993300;
+    font-size: 13pt;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px #CCC dotted;
+}
+
+.menutrai a:hover {
+    color: #000000;
+}
+.bgbanner{
+    float:left;
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+    background-image: url('../images/bgpage.jpg');
+    font-size: 14pt;
+    color: #FFFFFF;
+}
+.col1{
+    width: 10%;
+    float: left;
+}
+.col11{
+    float: left;
+    width: 90%;
+    text-align: right;
+}
+.col2{
+    width: 16%;
+    float: left;
+}
+.col10{
+    float: left;
+    width: 84%;
+    text-align: right;
+}
+.col6 {
+    float: left;
+    width: 50%;
+}
+.col9 {
+    float: left;
+    width: 75%;
+}
+.col3 {
+    float: left;
+    width: 25%;
+}
+
+.col8 {
+    float: left;
+    width: 65%;
+}
+.col4 {
+    float: left;
+    width: 35%;
+}
+.menu{
+    height: 40px;
+    line-height: 40px;
+}
+.menu a{
+    margin: 0 20px;
+}
+.logo img{
+    height: 40px !important;
+    width: 100px !important;
+}
+.imgchitiet img {
+    width: 90%;
+}
+.viewcart table {
+    width: 95%;
+    border-collapse: collapse;
+}
+.viewcart table tr th {
+    background-color: #CCC;
+}
+th,td {
+    padding: 10px;
+    border: 1px #666666 solid;
+    text-align: center;
+}
+h1 span {
+    color: #993300;
+}
+
+#timkiem {
+    width: 7%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: absolute;
+    
+   
+  }
+
+
+
+
+/* form đăng ký */
+/* form {border: 3px solid #f1f1f1;} */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+} */
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.ttdathang{
+    float: left;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.taikhoan {
+    float: right;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.boxcart{
+    border:1px #ccc solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.bggray{
+    background-color: #EEE;
+}
+
+/* tăng giảm số lượng */
+/* CSS cho nút tăng và giảm số lượng */
+.quantity {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantity:hover {
+    background-color: #ccc;
+  }
+  
+  .quantity:active {
+    background-color: #999;
+  }
+
+.fa-solid {
+    position: relative;
+    top: -40px;
+    right: -50px;
+    font-size: 20px;
+    color: #f44336;
+}
+
+/* mục lục */
+.muc {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
+.circle {
+    
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+
+.circle:hover,
+.circle:focus,
+.circle:active {
+    background-color: #ccc;
+}
+
+/* phần liên hệ */
+.contact {
+    margin-bottom: 50px;
+}
+
+.contact-group{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-label{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#name, #email,#phone, #message{
+    border-radius: 1.6rem;
+    border: 1px solid ;
+}
+#message {
+    padding: 20px;
+}
+
+.contact-image{
+    width: 80rem;
+    height: 18rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.contact-heading {
+    font-size: 6.4rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact-form{
+    max-width: 84rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 2 columns */
+    grid-template-rows: repeat(4, auto);
+    /* 4 rows */
+    grid-gap: 2.4rem 4rem;
+}
+
+.contac-button{
+    width: 80rem;
+}
+
+
+
+
+.contact-group:nth-child(5),
+.contact-group:nth-child(6) {
+    grid-column: span 2;
+}
+
+/* Điều chỉnh cột thứ 5 và 6 để gộp lại thành một cột */
+.contact-group:nth-child(5) .contact-input,
+.contact-group:nth-child(6) .contact-input {
+    grid-column: span 2;
+    width: 100%;
+}
+
+
+
+
+
